@@ -1,0 +1,58 @@
+//statement to prepare query from data base conecction pdo
+$stmt = $pdo->prepare($query);
+
+//adding the data
+$stmt->execute([$data_parameters]);
+
+//make use of require_once or require to link files with one another for a more secure connection
+
+// try catch block
+
+//setup tabs
+<header class="header-main">
+        <div class="header-options">
+            <nav class="header-main-nav">
+                <ul>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+UPDATE users SET bal = bal + ":add";
+
+
+
+//flexbox css for headers
+- works within header container ONLY
+- use display: flex to begin
+- flex direction: put content next to each other
+- justify content: to divide content horizontally
+- align content: divide content vertically
+
+!***!
+Assignment: host a simple hello world page on github action (in react?)
+            run site github pages 
+
+reload form
+[
+    <!-- HTML form with a reload button -->
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
+  <button type="submit" name="reload">Reload</button>
+</form>
+
+]
+
+php reload script
+[
+    <?php
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["reload"])) {
+    // Reload the page or perform any actions here
+    header("Location: ".$_SERVER['REQUEST_URI']);
+    exit();
+}
+?>
+
+]

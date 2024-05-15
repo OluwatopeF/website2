@@ -1,0 +1,188 @@
+
+/* main font */
+
+
+body{
+    background-image: url('../includes/img/blu_background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+
+.form-success{
+    color: green;
+    font-size: 35px;
+}
+
+/* font sizes */
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    font-size:60px;
+    text-align: center;
+}
+
+h3{
+    font-size: 50px;
+    text-align: center;
+}
+
+a{
+    cursor: pointer;
+}
+
+
+/* sign up sheet design */
+form{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px auto;
+    background: lightblue;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    border-color: black;
+    text-shadow: 1px;
+    font-size: 20px;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+input{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: .5px solid;
+    margin: 10px 0;
+
+}
+
+/* button design settings */
+button{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: none;
+    background: black;
+    color:white;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+
+}
+
+
+/* header */
+.header-main{
+    width:100%;
+    height: 100px;
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+/* navbar logo*/
+.header-main .bsu-logo{
+    width:fit-content;
+    height:100%;
+    background-color: black;
+    padding-left: 0;
+    display: flex;
+}
+.header-main .bsu-logo img{
+    height: 70px;
+    align-self: center;
+}
+/* navbar main */
+.header-main .navbar{
+    width:fit-content;
+    height:100%;
+    background-color: none;
+    
+
+}
+
+.header-main .navbar ul{
+    margin-left: 30px;
+
+}
+
+.header-main .navbar ul li{
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header-main .navbar ul li a{
+    padding: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    line-height: 85px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+/* style profile for signup/logout */
+.header-main .navbar-profile{
+    width:fit-content;
+    height:100%;
+    background-color: none;
+    padding-right: 60px;
+    border-radius: 30px;
+}
+
+.header-main .navbar-profile ul{
+    margin-left: 30px;
+    
+
+}
+
+.header-main .navbar-profile ul li{
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.header-main .navbar-profile ul li a{
+    padding: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    line-height: 80px;
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+    
+}
+
+/* hide form in container */
+.hide {
+    display: none;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
