@@ -3,7 +3,7 @@ Enter new folder
 Enter “ git clone https://github.com/OluwatopeF/website2.git”
 
 
-About:
+About (how to run locally):
 This is a PHP website that can be hosted locally by using XAMPP
 here is the download link:
 https://www.apachefriends.org/download.html
